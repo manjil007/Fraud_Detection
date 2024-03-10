@@ -15,7 +15,7 @@ df_test = df_test.drop(['TransactionDT'], axis=1)
 
 
 randomization_tool = ['entropy', 'mis', 'gini']
-alpha_vals = ['0.01','0.05','0.1','0.25','0.5','0.9']
+alpha_vals = [0.01,0.05,0.1,0.25,0.5,0.9]
 
 for tool in randomization_tool:
     for alpha_val in alpha_vals:

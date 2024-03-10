@@ -87,7 +87,7 @@ class RandomForest:
         results_df.to_csv(filename, index=False)
 
         print(f"Predictions have been saved to {filename}.")
-        return filename  # Optionally return the filename of the CSV file
+        return filename
 
     def _get_node_label(self, tree_predictions):
         """
