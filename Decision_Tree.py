@@ -209,7 +209,7 @@ class Tree:
             metric_function = self.calculate_entropy
         elif self.tool == 'gini':
             metric_function = self.calculate_gini_index
-        elif self.tool == 'misclassification':
+        elif self.tool == 'mis':
             metric_function = self.calculate_misclassification_error
         else:
             raise ValueError("Invalid randomization tool specified.")
